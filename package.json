@@ -1,0 +1,27 @@
+{
+  "name": "testcafe-typescript-cucumber",
+  "version": "1.0.0",
+  "description": "Integration of TestCafe, Cucumber.js and TypeScript",
+  "scripts": {
+    "tests": "./node_modules/.bin/cucumber-js -p cucumber",
+    "tests:wip": "TAGS=@e2e npm run tests"
+  },
+  "author": "Rajesh Yemul",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/cucumber": "^6.0.1",
+    "@types/node": "^14.11.10",
+    "@types/node-fetch": "~2.5.6",
+    "base64-img": "^1.0.4",
+    "chai": "^4.2.0",
+    "chai-string": "^1.5.0",
+    "cucumber": "~6.0.5",
+    "cucumber-html-reporter": "^5.2.0",
+    "multiple-cucumber-html-reporter": "^1.18.0",
+    "screenshot-desktop": "^1.12.2",
+    "testcafe": "^1.9.4",
+    "ts-node": "~8.3.0",
+    "typescript": "^4.0.3"
+  }
+}
