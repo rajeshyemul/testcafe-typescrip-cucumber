@@ -1,4 +1,4 @@
-import { Selector } from 'testcafe';
+
 import { $ } from '../utils';
 
 export class GithubPage {
@@ -7,7 +7,7 @@ export class GithubPage {
     }
 
     searchBox() {
-        return Selector('.header-search-input');
+        return $('.header-search-input');
     }
 
     firstSearchResult() {

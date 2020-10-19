@@ -64,5 +64,4 @@ function CustomWorld(this: World, { attach }) {
 }
 
 setDefaultTimeout(DEFAULT_TIMEOUT);
-
 setWorldConstructor(CustomWorld);

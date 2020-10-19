@@ -20,7 +20,7 @@ const tags = (process.env.TAGS || '')
     .map(item => item.trim())
     .join(' ');
 
-if (!!tags.trim()) {
+if (tags.trim()) {
   common.push(`-t ${tags}"`);
 }
 

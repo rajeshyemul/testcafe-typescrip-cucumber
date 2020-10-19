@@ -4,12 +4,13 @@
   "description": "Integration of TestCafe, Cucumber.js and TypeScript",
   "scripts": {
     "tests": "./node_modules/.bin/cucumber-js -p cucumber",
-    "tests:wip": "TAGS=@e2e npm run tests"
+    "tests:e2e": "TAGS=@e2e npm run tests"
   },
   "author": "Rajesh Yemul",
   "license": "ISC",
   "devDependencies": {
     "@types/chai": "^4.2.14",
+    "@types/chai-string": "^1.4.2",
     "@types/cucumber": "^6.0.1",
     "@types/node": "^14.11.10",
     "@types/node-fetch": "~2.5.6",

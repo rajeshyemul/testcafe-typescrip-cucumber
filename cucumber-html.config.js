@@ -15,12 +15,12 @@ const options = {
         },
         device: 'Local test machine',
         platform: {
-            name: 'ubuntu',
+            name: 'MAC OS',
             version: '16.04'
         }
     },
     customData: {
-        title: 'Run info',
+        title: 'Run information',
         data: [
           { label: 'Report Generation Time', value: `${new Date().toLocaleString()}` }
         ]
