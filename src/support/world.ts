@@ -21,15 +21,6 @@ function CustomWorld(this: World, { attach }) {
      */
     this.attach = attach;
 
-    /**
-     * Adds embeddings to the "After"-step (see report.json):
-     * "embeddings": [
-     *   {
-     *     "data": "base64 encoded image"
-     *     "mime_type": "image/png"
-     *   }
-     * ]
-     */
     this.addScreenshotToReport = async function () {
         await (await this.getTestController())
             .takeScreenshot()
